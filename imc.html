@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Rodrigo Bento de Macedo" />
+    <title>IMC calc</title>
+<!--     <link rel="stylesheet" href="css/reset.css">
+ -->    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="form">
+        <div class="title">IMC - Calc</div>
+        <div class="subtitle">Seu nome</div>
+        <div class="input-container ic1">
+            <input id="nome" name="nome" class="input" type="text" required placeholder="Nome">
+        </div>
+        <div class="sexo">sexo</div>
+        <div class="input-container ic2" >
+            <input  type="radio" name="sexo" id="m">Masculino
+             <span class="checkmark"></span>
+            <input  type="radio" name="sexo" id="f">Feminino
+             <span class= check-mark></span>
+        </div>
+        <div class="peso">Peso</div>
+        <div class="input-container ic3">
+            <input id="peso" name="peso" class="input" type="number" required placeholder="0">
+        </div>
+        <div class="altura">Altura em centimetros</div>
+        <div class="input-container ic4">
+            <input id="altura" name="altura" class="input" type="number" required placeholder="0">
+        </div>
+        <div class="button-container">
+            <button id="calcular" class="button">Calcular</button>
+        </div>
+        <div class="resultado">
+            <div class="resultado-title">Resultado:</div>
+            <div class="resultado-subtitle">Seu peso:</div>
+        <div class="button-container">
+            <button id="reset" name=zera class="reiniciar" >Reiniciar</button>
+        </div>
+            
+            </div>
+
+
+        </div>
+    </div>
+   <script src="js/imc.js"></script>
+</body>
+</html>
